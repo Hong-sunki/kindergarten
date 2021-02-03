@@ -2,7 +2,7 @@
 
 button { outline: none; }
 
-
+.main .article:nth-child(1) { position: relative; }
 .main .slide-group { position: relative; }
 .main .slide-group .slick-arrow { position: absolute; top: 50%; transform: translateY(-50%); font-size: 60px; color: rgba(255, 255, 255, 0.6); border: none;
                                   background: none; z-index: 9999; }
@@ -13,6 +13,8 @@ button { outline: none; }
 .main .slide-group .slick-dots li button { width: 15px; height: 15px; border-radius: 50%; background: rgba(255, 255, 255, 0.6); border: none; 
                                            text-indent: 9999px; overflow: hidden; }
 .main .slide-group .slick-dots li.slick-active button { background: rgba(255, 255, 255, 1); } 
+.main .plpa { position: absolute; bottom: 25px; left: 52%; color: rgba(255, 255, 255, 0.6); background: none; border: none; transition: all 0.6s; }
+.main .plpa:hover { color: #fff; }
 .main .slide1 { position: relative; height: 600px; background: url(../img/main-cover1.min.jpg) no-repeat center; background-size: cover;  }
 .main .slide2 { position: relative; height: 600px; background: url(../img/main-cover2.min.jpg) no-repeat center; background-size: cover;  }
 .main .slide::before { content: ''; position: absolute; top: 0; left: 0; bottom: 0; right: 0; background: rgba(0, 0, 0, 0.3); }
